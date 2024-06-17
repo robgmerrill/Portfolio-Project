@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container text-align-center">
+    <header class="row justify-between align-center white-text page-header">
+      <h1 class="col-4">Ada Lovelace</h1>
+      <nav class="row col-6 justify-evenly">
+        <a href="#about" class="nav-item white-text">About</a>
+        <a href="#tech" class="nav-item white-text">Technologies</a>
+        <a href="#projects" class="nav-item white-text">Projects</a>
+        <a href="#contact" class="nav-item white-text">Contact</a>
+      </nav>
+    </header>
+    <div class="row justify-center align-center white-text hero-image">
+      <h1 class="student-name">ADA LOVELACE</h1>
+    </div>
+    <div id="about" class="row justify-evenly align-center pb-50 about-section">
+      <h1 class="col-12">ABOUT ME</h1>
+      <img src="assets/firstname-lastname.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
+      <div class="col-5 text-align-reset">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim
+          commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo
+          minus dolorem saepe.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim
+          commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo
+          minus dolorem saepe.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim
+          commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo
+          minus dolorem saepe.</p>
+      </div>
+    </div>
+    <div id="tech" class="row justify-evenly pb-50 tech-section">
+      <h1 class="col-12">TECHNOLOGIES</h1>
+      <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
+      <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
+      <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
+    </div>
+    <div id="projects" class="row justify-evenly pb-50 projects-section">
+      <h1 class="col-12">MY PROJECTS</h1>
+      <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+      <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+      <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+    </div>
+    <div id="contact" class="row justify-evenly pb-50 contact-section">
+      <h1 class="col-12">CONTACT</h1>
+      <form id="contact-form" action="https://formspree.io/f/mbjnvzvp" method="POST" class="col-6">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
